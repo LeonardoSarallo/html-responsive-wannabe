@@ -64,9 +64,12 @@ img{
 
 .clear {
   clear:both;
+
 }
 
-@media screen and (max-widht: 420px) {
+
+
+@media screen and (max-width: 420px) {
 
   .container {
     width: 100%;
@@ -75,9 +78,11 @@ img{
   #lezioni .row > .left, #lezioni .row > .right {
     float: none;
 
+
   }
   #steps .row > .left,
   #steps .row > .central,
   #steps .row > .right {
     float: none;
   }
+}
