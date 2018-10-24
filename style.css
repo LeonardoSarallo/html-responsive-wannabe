@@ -88,6 +88,9 @@ img{
 
   #lezioni, #steps, #why {
     text-align: left;
-    margin: 0 0 50px 0;
+
   }
+  #lezioni .row img {
+    display: inline-block;
+    text-align: left;
 }
