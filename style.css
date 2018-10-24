@@ -69,7 +69,7 @@ img{
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 420px) {
 
   .container {
     width: 100%;
@@ -90,7 +90,14 @@ img{
     text-align: left;
 
   }
+
   #lezioni .row img {
     display: inline-block;
-    text-align: left;
+
+  }
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    width: 45%;
+
 }
